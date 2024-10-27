@@ -1,0 +1,28 @@
+#footer {
+  padding: 6px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer-btn {
+  padding: 4px 8px;
+  font-weight: 600;
+  color: #fff;
+  font-size: calc(12px* var(--rfso, var(--bfso, 1)));
+}
+#footer-right {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  color: #fff;
+  font-size: calc(12px* var(--rfso, var(--bfso, 1)));
+}
+#footer-right > span {
+  white-space: nowrap;
+  font-weight: 600;
+}
+#footer-right > svg {
+  height: 15px;
+  margin-left: 5px;
+}
